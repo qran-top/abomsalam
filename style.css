@@ -1,0 +1,64 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #020c1b;
+    color: #cbd5e1;
+}
+/* Removed h1-h6 specific font-family to allow Tailwind's font-serif to apply Playfair Display */
+.font-serif {
+     font-family: 'Playfair Display', serif; /* Apply Playfair Display specifically where Tailwind's font-serif is used */
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Custom RTL adjustments for specific elements if needed by Bootstrap */
+.rtl .ms-auto {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+.rtl .me-auto {
+    margin-left: auto !important;
+    margin-right: unset !important;
+}
+.rtl .border-l-4 {
+    border-left-width: 0px !important;
+    border-right-width: 4px !important;
+}
+.rtl .ps-3 { padding-right: 1rem !important; padding-left: 0 !important; }
+.rtl .pe-3 { padding-left: 1rem !important; padding-right: 0 !important; }
+.rtl .mr-2 { margin-left: 0.5rem !important; margin-right: 0 !important; }
+.ltr .ms-auto {
+    margin-left: auto !important;
+    margin-right: unset !important;
+}
+.ltr .me-auto {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+.dir-ltr { direction: ltr; }
+.dir-rtl { direction: rtl; }
+.animate-fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate-bounce {
+    animation: bounce 1.5s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%) translateX(-50%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(0) translateX(-50%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}

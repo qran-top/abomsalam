@@ -1,0 +1,30 @@
+{
+  "name": "Remix: National Minerals Company (NMC) v2",
+  "description": "A bilingual corporate website for a Syrian oil, gas, and minerals company featuring a premium Navy and Gold theme.",
+  "requestFramePermissions": [],
+  "main": "index.html",
+  "files": [
+    "index.html",
+    "style.css",
+    "index.js",
+    "constants.js",
+    "i18n.js",
+    "components/navbar.js",
+    "components/hero.js",
+    "components/about.js",
+    "components/values.js",
+    "components/team.js",
+    "components/services.js",
+    "components/projects.js",
+    "components/contact.js",
+    "components/footer.js",
+    "components/company-profile-video.js",
+    "chirman.jpg",
+    "cfo.jpg",
+    "assets/hero-poster.jpg",
+    "assets/about.jpg",
+    "aprtmnt.jpg",
+    "logo.png"
+  ],
+  "majorCapabilities": []
+}
