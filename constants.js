@@ -1,10 +1,10 @@
 export const ASSETS = {
     hero: {
         video: {
-            ar: "https://www.youtube.com/embed/8hQQFuXXAus?autoplay=1&mute=1&loop=1&playlist=8hQQFuXXAus&controls=0&modestbranding=1&rel=0&iv_load_policy=3&disablekb=1&enablejsapi=1", 
-            en: "https://www.youtube.com/embed/8hQQFuXXAus?autoplay=1&mute=1&loop=1&playlist=8hQQFuXXAus&controls=0&modestbranding=1&rel=0&iv_load_policy=3&disablekb=1&enablejsapi=1" 
+            ar: "https://www.youtube.com/embed/8hQQFuXXAus?autoplay=1&mute=1&loop=1&playlist=8hQQFuXXAus&controls=0&modestbranding=1&rel=0&iv_load_policy=3&disablekb=1&enablejsapi=1&playsinline=1", 
+            en: "https://www.youtube.com/embed/8hQQFuXXAus?autoplay=1&mute=1&loop=1&playlist=8hQQFuXXAus&controls=0&modestbranding=1&rel=0&iv_load_policy=3&disablekb=1&enablejsapi=1&playsinline=1" 
         },
-        poster: "/assets/hero-poster.jpg"
+        poster: "/public/car.jpg"
     },
     presentations: {
         ar: "https://archive.org/download/nmc-presentation-ar/NMC-Presentation-AR.pdf",
@@ -14,15 +14,15 @@ export const ASSETS = {
         ar: "https://www.youtube.com/embed/aUVEm47RsEM?autoplay=0&mute=0&controls=1&modestbranding=1&rel=0&iv_load_policy=3&enablejsapi=1", 
         en: "https://www.youtube.com/embed/khBdhpSc_AU?autoplay=0&mute=0&controls=1&modestbranding=1&rel=0&iv_load_policy=3&enablejsapi=1"
     },
-    about: "public/car.jpg", 
+    about: "/public/car.jpg", 
     team: {
-        chairman: "public/chirman.jpg",
-        cfo: "public/cfo.jpg"
+        chairman: "/public/chirman.jpg",
+        cfo: "/public/cfo.jpg"
     },
     partners: {
-        younesAboud: "public/aprtmnt.jpg"
+        younesAboud: "/public/aprtmnt.jpg"
     },
-    logo: "public/logo.png" 
+    logo: "/public/logo.png" 
 };
 
 export const CONTENT = {

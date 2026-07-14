@@ -7,7 +7,7 @@ export function getHeroHtml() {
     const presentationUrl = ASSETS.presentations[getCurrentLang()];
 
     return `
-        <section id="hero" class="relative h-screen w-full overflow-hidden flex items-center justify-center">
+        <section id="hero" class="relative h-screen w-full overflow-hidden flex items-center justify-center bg-cover bg-center" style="background-image: url('${ASSETS.hero.poster}');">
             <!-- Background Media -->
             <div class="absolute inset-0 z-0">
                 <iframe
