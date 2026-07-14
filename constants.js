@@ -58,10 +58,10 @@ export const CONTENT = {
             }
         },
         companyProfile: { 
-            title: "Our Story in Motion",
-            subtitle: "Company Profile",
-            intro: "Watch our official company profile video to learn more about our operations, values, and vision for the future.",
-            downloadBtn: "Download Full Presentation (PDF)"
+            title: "Comprehensive Corporate Profile",
+            subtitle: "Document & Credentials",
+            intro: "For a deep dive into our history, strategic goals, business units, and regulatory compliance, we invite you to review our comprehensive corporate presentation. This document outlines our capacity, key assets, and operational roadmap.",
+            downloadBtn: "Download Corporate Presentation (PDF)"
         },
         values: {
             title: "Our Values",
@@ -246,10 +246,10 @@ export const CONTENT = {
             }
         },
         companyProfile: { 
-            title: "قصتنا في حركة",
-            subtitle: "الملف التعريفي للشركة",
-            intro: "شاهد الفيديو التعريفي الرسمي لشركتنا لمعرفة المزيد عن عملياتنا وقيمنا ورؤيتنا للمستقبل.",
-            downloadBtn: "تحميل العرض التقديمي الكامل (PDF)"
+            title: "الملف التعريفي الشامل للمؤسسة",
+            subtitle: "الوثائق والاعتمادات",
+            intro: "للاطلاع عن كثب على تاريخنا، أهدافنا الاستراتيجية، قطاعات أعمالنا، وامتثالنا التنظيمي؛ ندعوكم لاستعراض ملفنا التعريفي الشامل. تستعرض هذه الوثيقة طاقاتنا التشغيلية، أصولنا الرئيسية، وخارطة طريقنا الاستثمارية.",
+            downloadBtn: "تحميل العرض التقديمي للمؤسسة (PDF)"
         },
         values: {
             title: "قيمنا",
