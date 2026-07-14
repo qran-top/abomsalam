@@ -14,15 +14,15 @@ export const ASSETS = {
         ar: "https://www.youtube.com/embed/aUVEm47RsEM?autoplay=0&mute=0&controls=1&modestbranding=1&rel=0&iv_load_policy=3&enablejsapi=1", 
         en: "https://www.youtube.com/embed/khBdhpSc_AU?autoplay=0&mute=0&controls=1&modestbranding=1&rel=0&iv_load_policy=3&enablejsapi=1"
     },
-    about: "/car.jpg", 
+    about: "public/car.jpg", 
     team: {
-        chairman: "/chirman.jpg",
-        cfo: "/cfo.jpg"
+        chairman: "public/chirman.jpg",
+        cfo: "public/cfo.jpg"
     },
     partners: {
-        younesAboud: "/aprtmnt.jpg"
+        younesAboud: "public/aprtmnt.jpg"
     },
-    logo: "/logo.png" 
+    logo: "public/logo.png" 
 };
 
 export const CONTENT = {
