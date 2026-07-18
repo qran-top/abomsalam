@@ -192,9 +192,10 @@ export const CONTENT = {
             address: "Al-Mahatta – Building 33 – Office No. 1, Homs, Syrian Arab Republic",
             phonesLabel: "Phones",
             phones: [
+                { country: "Syria", number: "+963 936925737" },
                 { country: "Syria", number: "+963 991332299" },
+                { country: "Syria", number: "+963 933522344" },
                 { country: "Kuwait", number: "+965 50885516" },
-                { country: "UAE", number: "+971 506214674" },
                 { country: "Turkey", number: "+90 5360362077" },
                 { country: "France", number: "+33 682100390" }
             ],
@@ -203,7 +204,7 @@ export const CONTENT = {
             websiteLabel: "Website",
             website: "www.Syria-NMC.com",
             registrationLabel: "Registration",
-            cr: "Commercial Registration: 61090",
+            cr: "Commercial Registration: 14335",
             formName: "Full Name",
             formEmail: "Email Address",
             formMessage: "Message",
@@ -380,9 +381,10 @@ export const CONTENT = {
             address: "حمص، الجمهورية العربية السورية، المحطة - بناء 33 - مكتب رقم 1",
             phonesLabel: "الهواتف",
             phones: [
+                { country: "سوريا", number: "+963 936925737" },
                 { country: "سوريا", number: "+963 991332299" },
+                { country: "سوريا", number: "+963 933522344" },
                 { country: "الكويت", number: "+965 50885516" },
-                { country: "الإمارات", number: "+971 506214674" },
                 { country: "تركيا", number: "+90 5360362077" },
                 { country: "فرنسا", number: "+33 682100390" }
             ],
@@ -391,7 +393,7 @@ export const CONTENT = {
             websiteLabel: "الموقع الإلكتروني",
             website: "www.Syria-NMC.com",
             registrationLabel: "التسجيل",
-            cr: "سجل تجاري: 61090",
+            cr: "سجل تجاري: 14335",
             formName: "الاسم الكامل",
             formEmail: "البريد الإلكتروني",
             formMessage: "الرسالة",
